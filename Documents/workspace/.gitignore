@@ -1,0 +1,35 @@
+# Credenciales y secretos
+.env
+*.env
+.env.*
+credentials.json
+token.json
+client_secret*.json
+service_account*.json
+*.pem
+*.key
+*.p12
+*_key.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
