@@ -23,4 +23,4 @@ jobs:
           GOOGLE_TOKEN: ${{ secrets.GOOGLE_TOKEN }}
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
-        run: python Documents/workspace/send_vox_reminder.py
+        run: python send_vox_reminder.py
